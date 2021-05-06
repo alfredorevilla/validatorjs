@@ -1,36 +1,36 @@
 module.exports = {
-  accepted: 'The :attribute must be accepted.',
-  after: 'The :attribute must be after :after.',
-  after_or_equal: 'The :attribute must be equal or after :after_or_equal.',
+  accepted: 'The :attribute field must be accepted.',
+  after: 'The :attribute field must be after :after.',
+  after_or_equal: 'The :attribute field must be equal or after :after_or_equal.',
   alpha: 'The :attribute field must contain only alphabetic characters.',
   alpha_dash: 'The :attribute field may only contain alpha-numeric characters, as well as dashes and underscores.',
   alpha_num: 'The :attribute field must be alphanumeric.',
-  before: 'The :attribute must be before :before.',
-  before_or_equal: 'The :attribute must be equal or before :before_or_equal.',
+  before: 'The :attribute field must be before :before.',
+  before_or_equal: 'The :attribute field must be equal or before :before_or_equal.',
   between: {
     numeric: 'The :attribute field must be between :min and :max.',
     string: 'The :attribute field must be between :min and :max characters.',
   },
-  confirmed: 'The :attribute confirmation does not match.',
-  email: 'The :attribute format is invalid.',
-  date: 'The :attribute is not a valid date format.',
+  confirmed: 'The :attribute field confirmation does not match.',
+  email: 'The :attribute field format is invalid.',
+  date: 'The :attribute field is not a valid date format.',
   def: 'The :attribute attribute has errors.',
-  digits: 'The :attribute must be :digits digits.',
+  digits: 'The :attribute field must be :digits digits.',
   digits_between: 'The :attribute field must be between :min and :max digits.',
-  different: 'The :attribute and :different must be different.',
-  in: 'The selected :attribute is invalid.',
-  integer: 'The :attribute must be an integer.',
+  different: 'The :attribute field and :different must be different.',
+  in: 'The selected :attribute field is invalid.',
+  integer: 'The :attribute field must be an integer.',
   hex: 'The :attribute field should have hexadecimal format',
   min: {
-    numeric: 'The :attribute must be at least :min.',
-    string: 'The :attribute must be at least :min characters.'
+    numeric: 'The :attribute field must be at least :min.',
+    string: 'The :attribute field must be at least :min characters.'
   },
   max: {
-    numeric: 'The :attribute may not be greater than :max.',
-    string: 'The :attribute may not be greater than :max characters.'
+    numeric: 'The :attribute field may not be greater than :max.',
+    string: 'The :attribute field may not be greater than :max characters.'
   },
-  not_in: 'The selected :attribute is invalid.',
-  numeric: 'The :attribute must be a number.',
+  not_in: 'The selected :attribute field is invalid.',
+  numeric: 'The :attribute field must be a number.',
   present: 'The :attribute field must be present (but can be empty).',
   required: 'The :attribute field is required.',
   required_if: 'The :attribute field is required when :other is :value.',
@@ -39,13 +39,13 @@ module.exports = {
   required_with_all: 'The :attribute field is required when :fields are not empty.',
   required_without: 'The :attribute field is required when :field is empty.',
   required_without_all: 'The :attribute field is required when :fields are empty.',
-  same: 'The :attribute and :same fields must match.',
+  same: 'The :attribute field and :same fields must match.',
   size: {
-    numeric: 'The :attribute must be :size.',
-    string: 'The :attribute must be :size characters.'
+    numeric: 'The :attribute field must be :size.',
+    string: 'The :attribute field must be :size characters.'
   },
-  string: 'The :attribute must be a string.',
-  url: 'The :attribute format is invalid.',
-  regex: 'The :attribute format is invalid.',
+  string: 'The :attribute field must be a string.',
+  url: 'The :attribute field format is invalid.',
+  regex: 'The :attribute field format is invalid.',
   attributes: {}
 };
